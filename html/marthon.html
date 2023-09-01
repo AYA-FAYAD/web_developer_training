@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>marthon</title>
+  </head>
+  <body>
+    <h1>Race Registration</h1>
+    <form action="/aya">
+      <p>
+        <label for="fi">First Name</label>
+        <input type="text" name="first name" id="fi" required />
+        <label for="la">Last Name</label>
+        <input type="text" name="last  name" id="la" required />
+      </p>
+      <label for="">Select a Race:</label>
+
+      <p>
+        <input type="radio" name="x" id="X" value="X" />
+        <label for="x">Fun Run 5K</label>
+      </p>
+      <p>
+        <input type="radio" name="x" id="Y" value="Y" />
+        <label for="Y">Half Marathon</label>
+      </p>
+      <p>
+        <input type="radio" name="x" id="o" value="o" />
+        <label for="o">Full Marathon</label>
+      </p>
+      <p>
+        <label for="e">Email</label>
+        <input type="email" name="email" id="e" required />
+        <label for="p">password</label>
+        <input type="password" name="password" id="p" required minlength="4" />
+      </p>
+      <p>
+        <label for="age">Select Age Group</label>
+        <select name="age" id="age">
+          <option value="under 18">under 18</option>
+          <option value="18-30">18-30</option>
+          <option value="30-50">30-50</option>
+          <option value="50-70">50-70</option>
+        </select>
+      </p>
+      <button>Register</button>
+    </form>
+  </body>
+</html>

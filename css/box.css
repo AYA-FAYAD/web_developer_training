@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+div{
+    width: 200px;
+    height: 300px;
+    
+}
+
+#one{
+    background-color:pink ;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+#two{
+    background-color: orchid ;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: blueviolet;
+    border-left-color: brown;
+    border-left-width: 8px;
+}
+
+#three{
+    background-color:plum ;
+    border: 4px  darkred solid;
+    border-radius: 50%;
+
+}
+
+
+
+button {
+    padding:  10px 20px;
+}

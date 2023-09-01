@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <h1>forms</h1>
+    <form action="/aya">
+    <p>
+    <label for="username">Enter a Username:</label>
+    <input id="username" type="text" placeholder="username" name="username"/>
+</p>
+<p>
+    <label for="password"">Enter a password:</label>
+    <input id="password" type="password" placeholder="password" name="password" />
+</p>
+<p>
+    <label for="color"">pik color:</label>
+    <input id="color" type="color" />
+</p>
+<p>
+    <label for="number"">Enter a number:</label>
+    <input  id="number" type="number"  min="1" max="10"/>
+</p>
+<button>submit</button>
+<!--buttin type="button" other way to submet the button-->
+<input type="submit" value="click me">
+</form>
+<button>lala</button> <!--the boutton outside the form it dont do any thing-->
+<form action="https://www.google.com/search">
+<input type="text" name="q" >
+<button>search google</button>
+</form>
+<form action="https://www.youtube.com/search">
+    <input type="text" name="search_query" >
+    <button>search google</button>
+    </form>
+    <h2> more input</h2>
+    <form action="/aya">
+        <input type="checkbox" name="agree" id="agree">
+        <label for="agree">i agree i love you</label>
+        <p> <!--to maka as quzis to pick one we put same name-->
+            <label for="xs">xs</label>
+            <input type="radio" name="s" id="xs" value="xs">  <!--value uniqe send to server-->
+            <label for="s">s</label>
+            <input type="radio" name="s" id="s" value="s">
+            <label for="m">m</label>
+            <input type="radio" name="s" id="m" value="m">
+            <button>submit</button>
+
+        </p>
+        <p>
+            <label for="meal">pleas select your entree</label>
+            <select name="meal" id="meal">
+                <option value="fishe">fishe</option>
+                <option value="meat">meat</option>
+                <option value="agg">agg</option>
+                <option value="nothing i on dite">nothing i on dite</option>
+            </select>    
+            <button>submit</button>
+
+
+        </p>
+        <p>
+            <label for="v">amount of cheese</label>
+            <input type="range" id="v" min="1" max="9"  name="kkkk">
+            
+        </p>
+        <label for="M">any special idea?</label>
+        <textarea  id="M" rows="10" cols="40" placeholder="JUST WRITE"></textarea>
+        <button>submit</button>
+    </form>
+    <h2>validation demo</h2>
+    <form action="/aya">
+        <p>
+        <label for="firsr">enter first name</label>
+        <input type="text" name="first name" id="firsr" required>
+    </p>
+    <p>
+        <label for="username">username</label>
+        <input type="text" name="username" id="username" minlength="6" required>
+    </p>
+    <input type="email" required>
+        <button>submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-weight: 400;
+    text-decoration: firebrick underline;
+    letter-spacing: 15px;
+    font-size: 45px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ 
+p{
+    line-height: 2;
+}
