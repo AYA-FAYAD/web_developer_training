@@ -193,4 +193,59 @@ const movies = [
 // exams.every(score => score >= 75)
 // exams.some(score => score>= 75)
 
-movies.some(mov => mov.year > 2015)
+// movies.some(mov => mov.year > 2015)
+
+// const allEvens = function (arr) {
+//     return arr.every(num => num % 2 === 0);
+// }
+
+// REDUCE
+
+// const prices = [9.99, 1.50, 19.99, 49.99, 30.50];
+
+// let total = 0;
+// for (let price of prices) {
+//     total+=price
+// }
+
+// let total=prices.reduce((total, num) => {
+//     return total += num
+// })
+
+
+// const minPrice=prices.reduce((min, price) => {
+//     if (price < min) {
+//         return price;
+//     }
+//     return min;
+// })
+
+// bestmovie = movies.reduce((bestmovie, currmovie) => {
+//     if (currmovie.score > bestmovie.score) {
+//         return currmovie;
+//     }
+//     return bestmovie;
+// })
+
+// const num = [1, 2, 3, 5, 6, 7, 8]
+// num.reduce((sum,to) => sum +to , 100)
+
+
+// const person = {
+//     firstname: 'aya',
+//     lastname: 'fayad',
+//     fullname: function () {
+//         return `${this.firstname} ${this.lastname}`
+//     }
+// }
+
+// this in arow function return to window function
+
+// const person = {
+//         firstname: 'aya',
+//         lastname: 'fayad',
+//         fullname: () => {
+//             return `${this.firstname} ${this.lastname}`
+//         }
+//     }
+    
