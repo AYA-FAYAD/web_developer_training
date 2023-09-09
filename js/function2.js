@@ -53,7 +53,7 @@ function bankRobbery() {
 }
 bankRobbery();
 
-
+//  function Expression
 const add = function (x, y) {
     return x + y;
 }
@@ -61,3 +61,19 @@ const add = function (x, y) {
 const square = function (num) {
     return Math.pow(num, 2);
 }
+
+function calltwice(func) {
+    func();
+    func();
+}
+
+
+function rolldie() {
+    const roll = Math.floor(Math.random()+6)+1
+    console.log(roll)
+}
+
+
+calltwice(rolldie);
+
+calltwice(rolldie());
